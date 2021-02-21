@@ -78,7 +78,7 @@ Ball.prototype.collisionDetect = function () {
 
 let balls = [];
 
-while (balls.length < 1000) {
+while (balls.length < 25) {
   let size = random(10, 20);
   let ball = new Ball(
     // 为避免绘制错误，球至少离画布边缘球本身一倍宽度的距离
